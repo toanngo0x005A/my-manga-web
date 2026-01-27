@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đang đọc...</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="reader-nav">
+        <a href="index.html" class="btn-small">← THOÁT</a>
+        <div class="controls">
+            <button class="btn" onclick="changeChap(-1)">◀</button>
+            <select id="chap-select" onchange="window.location.href=this.value"></select>
+            <button class="btn" onclick="changeChap(1)">▶</button>
+        </div>
+    </div>
+
+    <div id="viewer" class="viewer" style="margin-top: 60px;"></div>
+
+    <script>
+        const params = new URLSearchParams(window.location.search);
+        const comicId = params.get('id');
+        let chapId = params.get('chap') || "1"; // Giữ nguyên định dạng chuỗi (String)
+        const nav = document.querySelector('.reader-nav');
+        let lastScrollTop = 0;
+
+        // Ẩn hiện Nav khi scroll
+        window.addEventListener('scroll', () => {
+            let st = window.pageYOffset || document.documentElement.scrollTop;
+            if (st > lastScrollTop && st > 100) nav.classList.add('nav-hidden');
+            else nav.classList.remove('nav-hidden');
+            lastScrollTop = st <= 0 ? 0 : st;
+        });
+
+        function loadChapter() {
+            fetch('./data.json').then(res => res.json()).then(data => {
+                const comic = data.find(c => c.id === comicId);
+                
+                // SỬA TẠI ĐÂY: Dùng == thay vì === để khớp cả số và chuỗi
+                const chapter = comic.chapters.find(ch => ch.id == chapId);
+
+                if (!chapter) {
+                    console.error("Không tìm thấy chương:", chapId);
+                    return;
+                }
+
+                // Đổ danh sách chương vào select
+                const select = document.getElementById('chap-select');
+                select.innerHTML = comic.chapters.map(ch => 
+                    `<option value="reader.html?id=${comicId}&chap=${ch.id}" ${ch.id == chapId ? 'selected' : ''}>
+                        ${ch.title || "Chương " + ch.id} 
+                    </option>`
+                ).join('');
+
+                // Đổ ảnh
+                const viewer = document.getElementById('viewer');
+                viewer.innerHTML = chapter.images.map(img => 
+                    `<img src="comics/${comicId}/chap-${chapId}/${img}" loading="lazy">`
+                ).join('');
+                document.title = `${comic.title} - Chương ${chapId}`;
+            });
+        }
+
+        function changeChap(direction) {
+            fetch('./data.json').then(res => res.json()).then(data => {
+                const comic = data.find(c => c.id === comicId);
+                // Tìm vị trí của chương hiện tại trong danh sách
+                const currentIndex = comic.chapters.findIndex(ch => ch.id == chapId);
+                
+                // Xác định vị trí chương tiếp theo/trước đó
+                const nextIndex = currentIndex + direction;
+
+                if (nextIndex >= 0 && nextIndex < comic.chapters.length) {
+                    const nextChapObj = comic.chapters[nextIndex];
+                    window.location.href = `reader.html?id=${comicId}&chap=${nextChapObj.id}`;
+                } else {
+                    alert(direction > 0 ? "Bạn đã đọc đến chương mới nhất!" : "Đây là chương đầu tiên!");
+                }
+            });
+        }
+
+        loadChapter();
+    </script>
+</body>
+</html>

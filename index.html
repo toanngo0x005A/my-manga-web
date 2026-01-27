@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manga Hub</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header><h1>MANGA HUB</h1></header>
+    <main class="container" id="comic-list"></main>
+
+    <script>
+        fetch('./data.json')
+            .then(res => res.json())
+            .then(data => {
+                const list = document.getElementById('comic-list');
+                list.innerHTML = data.map(comic => `
+                    <div class="card">
+                        <img src="${comic.thumb}" onerror="this.src='https://via.placeholder.com/150x230'">
+                        <div class="card-info">
+                            <h3>${comic.title}</h3>
+                            <a href="reader.html?id=${comic.id}&chap=1" class="btn">ĐỌC NGAY</a>
+                        </div>
+                    </div>
+                `).join('');
+            });
+    </script>
+</body>
+</html>

@@ -1,0 +1,89 @@
+[
+	{
+		"id": "KuroNeko",
+		"title": "Hắc miêu và Lớp học Phù thủy",
+		"thumb": "comics/KuroNeko/bia13Mo.jpg",
+		"chapters": [
+			{
+				"id": 1,
+				"images": [
+					"chapter1Page1.jpg","chapter1Page2.jpg","chapter1Page3.jpg","chapter1Page4.jpg","chapter1Page5.jpg",
+					"chapter1Page6.jpg","chapter1Page7.jpg","chapter1Page8.jpg","chapter1Page9.jpg","chapter1Page10.jpg",
+					"chapter1Page11.jpg","chapter1Page12.jpg","chapter1Page13.jpg","chapter1Page14.jpg","chapter1Page15.jpg",
+					"chapter1Page16.jpg","chapter1Page17.jpg","chapter1Page18.jpg","chapter1Page19.jpg","chapter1Page20.jpg",
+					"chapter1Page21.jpg","chapter1Page22.jpg","chapter1Page23.jpg","chapter1Page24.jpg","chapter1Page25.jpg",
+					"chapter1Page26.jpg","chapter1Page27.jpg","chapter1Page28.jpg","chapter1Page29.jpg","chapter1Page30.jpg",
+					"chapter1Page31.jpg","chapter1Page32.jpg","chapter1Page33.jpg","chapter1Page34.jpg","chapter1Page35.jpg",
+					"chapter1Page36.jpg","chapter1Page37.jpg","chapter1Page38.jpg","chapter1Page39.jpg","chapter1Page40.jpg",
+					"chapter1Page41.jpg","chapter1Page42.jpg","chapter1Page43.jpg","chapter1Page44.jpg","chapter1Page45.jpg",
+					"chapter1Page46.jpg","chapter1Page47.jpg","chapter1Page48.jpg","chapter1Page49.jpg","chapter1Page50.jpg",
+					"chapter1Page51.jpg","chapter1Page52.jpg","chapter1Page53.jpg","chapter1Page54.jpg","chapter1Page55.jpg",
+					"chapter1Page56.jpg","chapter1Page57.jpg","chapter1Page58.jpg","chapter1Page59.jpg","chapter1Page60.jpg",
+					"chapter1Page61.jpg","chapter1Page62.jpg","chapter1Page63.jpg","chapter1Page64.jpg","chapter1Page65.jpg",
+					"chapter1Page66.jpg","chapter1Page67.jpg","chapter1Page68.jpg","chapter1Page69.jpg","chapter1Page70.jpg",
+					"chapter1Page71.jpg","chapter1Page72.jpg","chapter1Page73.jpg"
+				]
+			},
+			{
+				"id": 2,
+				"images": [
+					"chapter2Page1.jpg","chapter2Page2.jpg","chapter2Page3.jpg","chapter2Page4.jpg","chapter2Page5.jpg",
+					"chapter2Page6.jpg","chapter2Page7.jpg","chapter2Page8.jpg","chapter2Page9.jpg","chapter2Page10.jpg",
+					"chapter2Page11.jpg","chapter2Page12.jpg","chapter2Page13.jpg","chapter2Page14.jpg","chapter2Page15.jpg",
+					"chapter2Page16.jpg","chapter2Page17.jpg","chapter2Page18.jpg","chapter2Page19.jpg","chapter2Page20.jpg",
+					"chapter2Page21.jpg","chapter2Page22.jpg","chapter2Page23.jpg","chapter2Page24.jpg","chapter2Page25.jpg",
+					"chapter2Page26.jpg","chapter2Page27.jpg","chapter2Page28.jpg","chapter2Page29.jpg","chapter2Page30.jpg",
+					"chapter2Page31.jpg","chapter2Page32.jpg","chapter2Page33.jpg","chapter2Page34.jpg","chapter2Page35.jpg",
+					"chapter2Page36.jpg","chapter2Page37.jpg","chapter2Page38.jpg","chapter2Page39.jpg","chapter2Page40.jpg",
+					"chapter2Page41.jpg","chapter2Page42.jpg"
+				]
+			},
+			{
+				"id": 3,
+				"images": [
+					"chapter3Page1.jpg","chapter3Page2.jpg","chapter3Page3.jpg","chapter3Page4.jpg","chapter3Page5.jpg",
+					"chapter3Page6.jpg","chapter3Page7.jpg","chapter3Page8.jpg","chapter3Page9.jpg","chapter3Page10.jpg",
+					"chapter3Page11.jpg","chapter3Page12.jpg","chapter3Page13.jpg","chapter3Page14.jpg","chapter3Page15.jpg",
+					"chapter3Page16.jpg","chapter3Page17.jpg","chapter3Page18.jpg","chapter3Page19.jpg","chapter3Page20.jpg",
+					"chapter3Page21.jpg","chapter3Page22.jpg","chapter3Page23.jpg","chapter3Page24.jpg","chapter3Page25.jpg",
+					"chapter3Page26.jpg","chapter3Page27.jpg","chapter3Page28.jpg","chapter3Page29.jpg"
+				]
+			},
+			{
+				"id": 4,
+				"images": [
+					"chapter4Page1.jpg","chapter4Page2.jpg","chapter4Page3.jpg","chapter4Page4.jpg","chapter4Page5.jpg",
+					"chapter4Page6.jpg","chapter4Page7.jpg","chapter4Page8.jpg","chapter4Page9.jpg","chapter4Page10.jpg",
+					"chapter4Page11.jpg","chapter4Page12.jpg","chapter4Page13.jpg","chapter4Page14.jpg","chapter4Page15.jpg",
+					"chapter4Page16.jpg","chapter4Page17.jpg","chapter4Page18.jpg","chapter4Page19.jpg","chapter4Page20.jpg",
+					"chapter4Page21.jpg","chapter4Page22.jpg","chapter4Page23.jpg","chapter4Page24.jpg","chapter4Page25.jpg",
+					"chapter4Page26.jpg","chapter4Page27.jpg","chapter4Page28.jpg","chapter4Page29.jpg","chapter4Page30.jpg",
+					"chapter4Page31.jpg","chapter4Page32.jpg","chapter4Page33.jpg","chapter4Page34.jpg","chapter4Page35.jpg",
+					"chapter4Page36.jpg","chapter4Page37.jpg","chapter4Page38.jpg","chapter4Page39.jpg","chapter4Page40.jpg",
+					"chapter4Page41.jpg"
+				]
+			},
+            {
+				"id": "4_5",
+				"images": [
+					"chapter4_5Page1.jpg","chapter4_5Page2.jpg","chapter4_5Page3.jpg","chapter4_5Page4.jpg","chapter4_5Page5.jpg",
+					"chapter4_5Page6.jpg","chapter4_5Page7.jpg","chapter4_5Page8.jpg","chapter4_5Page9.jpg","chapter4_5Page10.jpg",
+					"chapter4_5Page11.jpg","chapter4_5Page12.jpg","chapter4_5Page13.jpg","chapter4_5Page14.jpg","chapter4_5Page15.jpg",
+					"chapter4_5Page16.jpg","chapter4_5Page17.jpg","chapter4_5Page18.jpg"
+				]
+			},
+            {
+				"id": 5,
+				"images": [
+					"chapter5Page1.jpg","chapter5Page2.jpg","chapter5Page3.jpg","chapter5Page4.jpg","chapter5Page5.jpg",
+					"chapter5Page6.jpg","chapter5Page7.jpg","chapter5Page8.jpg","chapter5Page9.jpg","chapter5Page10.jpg",
+					"chapter5Page11.jpg","chapter5Page12.jpg","chapter5Page13.jpg","chapter5Page14.jpg","chapter5Page15.jpg",
+					"chapter5Page16.jpg","chapter5Page17.jpg","chapter5Page18.jpg","chapter5Page19.jpg","chapter5Page20.jpg",
+					"chapter5Page21.jpg","chapter5Page22.jpg","chapter5Page23.jpg","chapter5Page24.jpg","chapter5Page25.jpg",
+					"chapter5Page26.jpg","chapter5Page27.jpg"
+				]
+			}
+
+		]
+	}
+]
