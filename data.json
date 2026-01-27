@@ -367,8 +367,8 @@
                 "images": [
                     "chapter31Page1.jpg","chapter31Page2.jpg","chapter31Page3.jpg","chapter31Page4.jpg","chapter31Page5.jpg",
                     "chapter31Page6.jpg","chapter31Page7.jpg","chapter31Page8.jpg","chapter31Page9.jpg","chapter31Page10.jpg",
-                    "chapter31Page11.jpg","chapter31Page12.jpg","chapter31Page13.jpg","chapter31Page14.jpg","chapter31Page15.png",
-                    "chapter31Page16.jpg","chapter31Page17.jpg","chapter31Page18.jpg","chapter31Page19.jpg","chapter31Page20.jpg"
+                    "chapter31Page11.jpg","chapter31Page12.jpg","chapter31Page13.jpg","chapter31Page14.jpg","chapter31Page14Mau.png", 
+                    "chapter31Page15.jpg", "chapter31Page16.jpg","chapter31Page17.jpg","chapter31Page18.jpg","chapter31Page19.jpg"
                 ]
             },
             {
@@ -416,7 +416,97 @@
                     "chapter35_5Page1.jpg","chapter35_5Page2.jpg","chapter35_5Page3.jpg","chapter35_5Page4.jpg","chapter35_5Page5.jpg",
                     "chapter35_5Page6.jpg","chapter35_5Page7.jpg","chapter35_5Page8.jpg","chapter35_5Page9.jpg","chapter35_5Page10.jpg"
                 ]
+            },
+            {
+                "id": 36,
+                "images": [
+                    "chapter36Page1.jpg","chapter36Page2.jpg","chapter36Page3.jpg","chapter36Page4.jpg","chapter36Page5.jpg",
+                    "chapter36Page6.jpg","chapter36Page7.jpg","chapter36Page8.jpg","chapter36Page9.jpg","chapter36Page10.jpg",
+                    "chapter36Page11.jpg","chapter36Page12.jpg","chapter36Page13.jpg","chapter36Page14.jpg","chapter36Page15.jpg",
+                    "chapter36Page16.jpg","chapter36Page17.jpg","chapter36Page18.jpg","chapter36Page19.jpg","chapter36Page20.jpg",
+                    "chapter36Page21.jpg","chapter36Page22.jpg"
+                ]
+            },
+            {
+                "id": 37,
+                "images": [
+                    "chapter37Page1.jpg","chapter37Page2.jpg","chapter37Page3.jpg","chapter37Page4.jpg","chapter37Page5.jpg",
+                    "chapter37Page6.jpg","chapter37Page7.jpg","chapter37Page8.jpg","chapter37Page9.jpg","chapter37Page10.jpg",
+                    "chapter37Page11.jpg","chapter37Page12.jpg","chapter37Page13.jpg","chapter37Page14.jpg","chapter37Page15.jpg",
+                    "chapter37Page16.jpg","chapter37Page17.jpg","chapter37Page18.jpg","chapter37Page19.jpg","chapter37Page20.jpg",
+                    "chapter37Page21.jpg"
+                ]
+            },
+            {
+                "id": 38,
+                "images": [
+                    "chapter38Page1.jpg","chapter38Page2.jpg","chapter38Page3.jpg","chapter38Page4.jpg","chapter38Page5.jpg",
+                    "chapter38Page6.jpg","chapter38Page7.jpg","chapter38Page8.jpg","chapter38Page9.jpg","chapter38Page10.jpg",
+                    "chapter38Page11.jpg","chapter38Page12.jpg","chapter38Page13.jpg","chapter38Page14.jpg","chapter38Page15.jpg",
+                    "chapter38Page16.jpg","chapter38Page17.jpg","chapter38Page18.jpg","chapter38Page19.jpg","chapter38Page20.jpg",
+                    "chapter38Page21.jpg"
+                ]
+            },
+            {
+                "id": 39,
+                "images": [
+                    "chapter39Page1.jpg","chapter39Page2.jpg","chapter39Page3.jpg","chapter39Page4.jpg","chapter39Page5.jpg",
+                    "chapter39Page6.jpg","chapter39Page7.jpg","chapter39Page8.jpg","chapter39Page9.jpg","chapter39Page10.jpg",
+                    "chapter39Page11.jpg","chapter39Page12.jpg","chapter39Page13.jpg","chapter39Page14.jpg","chapter39Page15.jpg",
+                    "chapter39Page16.jpg","chapter39Page17.jpg","chapter39Page18.jpg","chapter39Page19.jpg","chapter39Page20.jpg",
+                    "chapter39Page21.jpg","chapter39Page22.jpg","chapter39Page23.jpg","chapter39Page24.jpg"
+                ]
+            },
+            {
+                "id": 40,
+                "images": [
+                    "chapter40Page1.jpg","chapter40Page2.jpg","chapter40Page3.jpg","chapter40Page4.jpg","chapter40Page5.jpg",
+                    "chapter40Page6.jpg","chapter40Page7.jpg","chapter40Page8.jpg","chapter40Page9.jpg","chapter40Page10.jpg",
+                    "chapter40Page11.jpg","chapter40Page12.jpg","chapter40Page13.jpg","chapter40Page14.jpg","chapter40Page15.jpg",
+                    "chapter40Page16.jpg","chapter40Page17.jpg","chapter40Page18.jpg","chapter40Page19.jpg","chapter40Page20.jpg",
+                    "chapter40Page21.jpg","chapter40Page22.jpg"
+                ]
+            },
+            {
+                "id": 41,
+                "images": [
+                    "chapter41Page1.jpg","chapter41Page2.jpg","chapter41Page3.jpg","chapter41Page4.jpg","chapter41Page5.jpg",
+                    "chapter41Page6.jpg","chapter41Page7.jpg","chapter41Page8.jpg","chapter41Page9.jpg","chapter41Page10.jpg",
+                    "chapter41Page11.jpg","chapter41Page12.jpg","chapter41Page13.jpg","chapter41Page14.jpg","chapter41Page15.jpg",
+                    "chapter41Page16.jpg","chapter41Page17.jpg","chapter41Page18.jpg","chapter41Page19.jpg","chapter41Page20.jpg",
+                    "chapter41Page21.jpg","chapter41Page22.jpg"
+                ]
+            },
+            {
+                "id": 42,
+                "images": [
+                    "chapter42Page1.jpg","chapter42Page2.jpg","chapter42Page3.jpg","chapter42Page4.jpg","chapter42Page5.jpg",
+                    "chapter42Page6.jpg","chapter42Page7.jpg","chapter42Page8.jpg","chapter42Page9.jpg","chapter42Page10.jpg",
+                    "chapter42Page11.jpg","chapter42Page12.jpg","chapter42Page13.jpg","chapter42Page14.jpg","chapter42Page15.jpg",
+                    "chapter42Page16.jpg","chapter42Page17.jpg","chapter42Page18.jpg","chapter42Page19.jpg","chapter42Page20.jpg",
+                    "chapter42Page21.jpg","chapter42Page22.jpg"
+                ]
+            },
+            {
+                "id": 43,
+                "images": [
+                    "chapter43Page1.jpg","chapter43Page2.jpg","chapter43Page3.jpg","chapter43Page4.jpg","chapter43Page5.jpg",
+                    "chapter43Page6.jpg","chapter43Page7.jpg","chapter43Page8.jpg","chapter43Page9.jpg","chapter43Page10.jpg",
+                    "chapter43Page11.jpg","chapter43Page12.jpg","chapter43Page13.jpg","chapter43Page14.jpg","chapter43Page15.jpg",
+                    "chapter43Page16.jpg","chapter43Page17.jpg","chapter43Page18.jpg","chapter43Page19.jpg","chapter43Page20.jpg",
+                    "chapter43Page21.jpg","chapter43Page22.jpg","chapter43Page23.jpg"
+                ]
+            },
+            {
+                "id": "43_5",
+                "images": [
+                    "chapter43_5Page1.jpg","chapter43_5Page2.jpg","chapter43_5Page3.jpg","chapter43_5Page4.jpg","chapter43_5Page5.jpg",
+                    "chapter43_5Page6.jpg","chapter43_5Page7.jpg","chapter43_5Page8.jpg","chapter43_5Page9.jpg"
+                ]
             }
+
+
+
 
 		]
 	}
