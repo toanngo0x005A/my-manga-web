@@ -58,9 +58,13 @@
 
                 // Đổ ảnh
                 const viewer = document.getElementById('viewer');
-                viewer.innerHTML = chapter.images.map(img => 
+                const imagesHTML = chapter.images.map(img => 
                     `<img src="comics/${comicId}/chap-${chapId}/${img}" loading="lazy">`
                 ).join('');
+
+                // Cộng thêm vạch an toàn vào cuối danh sách ảnh
+                viewer.innerHTML = imagesHTML + `<div class="safe-bottom-area"></div>`;
+
                 document.title = `${comic.title} - Chương ${chapId}`;
             });
         }

@@ -107,3 +107,24 @@ header h1 { margin: 0; text-transform: uppercase; letter-spacing: 2px; }
 @media (max-width: 600px) {
     .container { grid-template-columns: repeat(2, 1fr); gap: 10px; padding: 10px; }
 }
+
+
+
+/* Khoảng trống an toàn ở cuối trang để tránh bị che bởi màn hình bo cong */
+.safe-bottom-area {
+    height: 30px; /* Độ cao của khoảng trống */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--bg);
+}
+
+/* Vạch đen nhỏ hoặc đường kẻ mờ để báo hiệu hết chương */
+.safe-bottom-area::after {
+    content: "";
+    width: 40px;
+    height: 4px;
+    background: #333; /* Màu vạch đen mờ */
+    border-radius: 2px;
+}
