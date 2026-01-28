@@ -37,8 +37,6 @@
         function loadChapter() {
             fetch('./data.json').then(res => res.json()).then(data => {
                 const comic = data.find(c => c.id === comicId);
-                
-                // SỬA TẠI ĐÂY: Dùng == thay vì === để khớp cả số và chuỗi
                 const chapter = comic.chapters.find(ch => ch.id == chapId);
 
                 if (!chapter) {
@@ -46,9 +44,13 @@
                     return;
                 }
 
-                // Đổ danh sách chương vào select
+                // Đổ danh sách chương vào select (ĐÃ ĐẢO NGƯỢC)
                 const select = document.getElementById('chap-select');
-                select.innerHTML = comic.chapters.map(ch => 
+                
+                // [...comic.chapters] tạo một bản sao để không làm hỏng thứ tự mảng gốc
+                const reversedChapters = [...comic.chapters].reverse(); 
+
+                select.innerHTML = reversedChapters.map(ch => 
                     `<option value="reader.html?id=${comicId}&chap=${ch.id}" ${ch.id == chapId ? 'selected' : ''}>
                         ${ch.title || "Chương " + ch.id} 
                     </option>`
