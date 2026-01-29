@@ -7,7 +7,7 @@
 			{
 				"id": 1,
 				"images": [
-					"chapter1Page1.jpg","chapter1Page2.jpg","chapter1Page3.jpg","chapter1Page4.jpg","chapter1Page5.jpg",
+					"chapter1Page1.jpg","chapter1Page2.jpg", "chapter1Page2Mau.jpg", "chapter1Page3.jpg","chapter1Page4.jpg","chapter1Page5.jpg",
 					"chapter1Page6.jpg","chapter1Page7.jpg","chapter1Page8.jpg","chapter1Page9.jpg","chapter1Page10.jpg",
 					"chapter1Page11.jpg","chapter1Page12.jpg","chapter1Page13.jpg","chapter1Page14.jpg","chapter1Page15.jpg",
 					"chapter1Page16.jpg","chapter1Page17.jpg","chapter1Page18.jpg","chapter1Page19.jpg","chapter1Page20.jpg",
@@ -86,7 +86,7 @@
             {
                 "id": 6,
                 "images": [
-                    "chapter6Page1.jpg","chapter6Page2.jpg","chapter6Page3.jpg","chapter6Page4.jpg","chapter6Page5.jpg",
+                    "chapter6Page1.jpg", "chapter6Page1Mau.jpg", "chapter6Page2.jpg","chapter6Page3.jpg","chapter6Page4.jpg","chapter6Page5.jpg",
                     "chapter6Page6.jpg","chapter6Page7.jpg","chapter6Page8.jpg","chapter6Page9.jpg","chapter6Page10.jpg",
                     "chapter6Page11.jpg","chapter6Page12.jpg","chapter6Page13.jpg","chapter6Page14.jpg","chapter6Page15.jpg",
                     "chapter6Page16.jpg","chapter6Page17.jpg","chapter6Page18.jpg","chapter6Page19.jpg","chapter6Page20.jpg",
@@ -507,7 +507,7 @@
             {
                 "id": 44,
                 "images": [
-                    "chapter44Page1.jpg","chapter44Page2.jpg","chapter44Page3.jpg","chapter44Page4.jpg","chapter44Page5.jpg",
+                    "chapter44Page1.jpg","chapter44Page2.jpg","chapter44Page3.jpg","chapter44Page4.jpg","chapter44Page5.jpg", "chapter44Page5Mau.jpg",
                     "chapter44Page6.jpg","chapter44Page7.jpg","chapter44Page8.jpg","chapter44Page9.jpg","chapter44Page10.jpg",
                     "chapter44Page11.jpg","chapter44Page12.jpg","chapter44Page13.jpg","chapter44Page14.jpg","chapter44Page15.jpg",
                     "chapter44Page16.jpg","chapter44Page17.jpg","chapter44Page18.jpg","chapter44Page19.jpg","chapter44Page20.jpg",
@@ -689,7 +689,7 @@
             {
                 "id": 61,
                 "images": [
-                    "chapter61Page1.jpg","chapter61Page2.jpg","chapter61Page3.jpg","chapter61Page4.jpg","chapter61Page5.jpg",
+                    "chapter61Page1.jpg", "chapter61Page1Mau.jpg", "chapter61Page2.jpg","chapter61Page3.jpg","chapter61Page4.jpg","chapter61Page5.jpg",
                     "chapter61Page6.jpg","chapter61Page7.jpg","chapter61Page8.jpg","chapter61Page9.jpg","chapter61Page10.jpg",
                     "chapter61Page11.jpg","chapter61Page12.jpg","chapter61Page13.jpg","chapter61Page14.jpg","chapter61Page15.jpg",
                     "chapter61Page16.jpg","chapter61Page17.jpg","chapter61Page18.jpg","chapter61Page19.jpg","chapter61Page20.jpg",
